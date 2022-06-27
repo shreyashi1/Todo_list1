@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-  "start": "node app.js"
+  "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": "16.15.1",
-    "npm": "8.11.0"
+    "node": "16.15.1"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
@@ -19,5 +18,5 @@
     "mongoose": "^6.3.6"
   },
   "devDependencies": {},
-  "description": "a really cool app"
+  "description": ""
 }
