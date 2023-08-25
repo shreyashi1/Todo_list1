@@ -13,7 +13,9 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://admin-shreyashi:Test123@cluster0.plqnf.mongodb.net/todolistDB", {useNewUrlParser: true});
+//mongoose.connect("mongodb+srv://admin-shreyashi:Test123@cluster0.plqnf.mongodb.net/todolistDB?retryWrites=true&w=majority")
+//mongoose.connect("mongodb+srv://coolshreyashi123:aashipagli@cluster0.ovpzwmk.mongodb.net/?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://coolshreyashi123:aashipagli@cluster0.ovpzwmk.mongodb.net/project1?retryWrites=true&w=majority")
 
 const itemsSchema = {
   name: String
